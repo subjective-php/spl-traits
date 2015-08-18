@@ -4,12 +4,7 @@ namespace Chadicus\Spl\Traits;
 
 trait IteratorTrait
 {
-    /**
-     * Array containing elements.
-     *
-     * @var array
-     */
-    protected $container;
+    use ArrayContainerTrait;
 
     /**
      * Rewind the Iterator to the first element
