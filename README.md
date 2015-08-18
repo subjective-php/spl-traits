@@ -1,12 +1,11 @@
 #Chadicus\Spl\Traits
 [![Build Status](http://img.shields.io/travis/chadicus/spl-traits-php.svg?style=flat)](https://travis-ci.org/chadicus/spl-traits-php)
 [![Code Quality](http://img.shields.io/scrutinizer/g/chadicus/spl-traits-php.svg?style=flat)](https://scrutinizer-ci.com/g/chadicus/spl-traits-php/)
-[![Code Coverage](http://img.shields.io/coveralls/chadicus/spl-traits-php.svg?style=flat)](https://coveralls.io/r/chadicus/spl-traits-php)
+[![Coverage Status](https://coveralls.io/repos/chadicus/spl-traits-php/badge.svg?branch=master&service=github)](https://coveralls.io/github/chadicus/spl-traits-php?branch=master)
 [![Latest Stable Version](http://img.shields.io/packagist/v/chadicus/spl-traits.svg?style=flat)](https://packagist.org/packages/chadicus/spl-traits)
 [![Total Downloads](http://img.shields.io/packagist/dt/chadicus/spl-traits.svg?style=flat)](https://packagist.org/packages/chadicus/spl-traits)
 [![License](http://img.shields.io/packagist/l/chadicus/spl-traits.svg?style=flat)](https://packagist.org/packages/chadicus/spl-traits)
 [![Documentation](https://img.shields.io/badge/reference-phpdoc-blue.svg?style=flat)](http://chadicus.github.io/spl-traits-php)
-
 
 A collection of standard traits.
 
