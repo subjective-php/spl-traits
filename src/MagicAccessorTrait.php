@@ -4,8 +4,6 @@ namespace Chadicus\Spl\Traits;
 
 trait MagicAccessorTrait
 {
-    use ArrayContainerTrait;
-
     /**
      * Access an internal array element as a property
      *

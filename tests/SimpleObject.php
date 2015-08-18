@@ -8,6 +8,8 @@ use Chadicus\Spl\Traits\MagicAccessorTrait;
 
 class SimpleObject implements \ArrayAccess, \Iterator
 {
+    private $container;
+
     use ArrayAccessTrait;
     use IteratorTrait;
     use MagicAccessorTrait;

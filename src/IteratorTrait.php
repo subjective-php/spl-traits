@@ -4,8 +4,6 @@ namespace Chadicus\Spl\Traits;
 
 trait IteratorTrait
 {
-    use ArrayContainerTrait;
-
     /**
      * Rewind the Iterator to the first element
      *

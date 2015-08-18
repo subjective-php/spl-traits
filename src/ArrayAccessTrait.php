@@ -4,8 +4,6 @@ namespace Chadicus\Spl\Traits;
 
 trait ArrayAccessTrait
 {
-    use ArrayContainerTrait;
-
     /**
      * Sets the value at the specified index $offset to $value
      *
