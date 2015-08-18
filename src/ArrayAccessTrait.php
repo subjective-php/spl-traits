@@ -45,7 +45,7 @@ trait ArrayAccessTrait
     public function offsetExists($offset)
     {
         if (is_string($offset) || is_int($offset)) {
-            return isset($this->container[$offset]);
+            return array_key_exists($offset, $this->container);
         }
 
         return false;
@@ -80,7 +80,7 @@ trait ArrayAccessTrait
             throw new \InvalidArgumentException('$offset must be an integer or string');
         }
 
-        return isset($this->container[$offset]) ? $this->container[$offset] : null;
+        return array_key_exists($offset, $this->container) ? $this->container[$offset] : null;
     }
 
 }
