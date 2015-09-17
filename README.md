@@ -7,7 +7,7 @@
 [![Total Downloads](http://img.shields.io/packagist/dt/chadicus/spl-traits.svg?style=flat)](https://packagist.org/packages/chadicus/spl-traits)
 [![License](http://img.shields.io/packagist/l/chadicus/spl-traits.svg?style=flat)](https://packagist.org/packages/chadicus/spl-traits)
 
-[![Documentation](https://img.shields.io/badge/reference-phpdoc-blue.svg?style=flat)](http://chadicus.github.io/spl-traits-php)
+[![Documentation](https://img.shields.io/badge/reference-phpdoc-blue.svg?style=flat)](http://pholio.herokuapp.com/chadicus/spl-traits)
 
 A collection of standard traits.
 
