@@ -7,7 +7,7 @@
 [![Total Downloads](http://img.shields.io/packagist/dt/chadicus/spl-traits.svg?style=flat)](https://packagist.org/packages/chadicus/spl-traits)
 [![License](http://img.shields.io/packagist/l/chadicus/spl-traits.svg?style=flat)](https://packagist.org/packages/chadicus/spl-traits)
 
-[![Dependency Status](https://www.versioneye.com/user/projects/55fb2b7f3ed894001e0010a2/badge.svg?style=flat)](https://www.versioneye.com/user/projects/55fb2b7f3ed894001e0010a2)
+[![Dependency Status](https://www.versioneye.com/user/projects/55fb2bb93ed8940017000fe2/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/55fb2bb93ed8940017000fe2)
 
 [![Documentation](https://img.shields.io/badge/reference-phpdoc-blue.svg?style=flat)](http://pholio.herokuapp.com/chadicus/spl-traits)
 
