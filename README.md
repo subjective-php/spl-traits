@@ -20,12 +20,8 @@ Chadicus\Spl\Interfaces requires PHP 5.4 (or later).
 ##Composer
 To add the library as a local, per-project dependency use [Composer](http://getcomposer.org)! Simply add a dependency on `chadicus/spl-traits` to your project's `composer.json` file such as:
 
-```json
-{
-    "require": {
-        "chadicus/spl-traits": "~1.0"
-    }
-}
+```sh
+composer require chadicus/spl-traits
 ```
 ##Documentation
 PHP docs for the project can be found [here](http://chadicus.github.io/spl-traits-php).
