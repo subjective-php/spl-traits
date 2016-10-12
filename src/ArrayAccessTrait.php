@@ -7,7 +7,7 @@ trait ArrayAccessTrait
     /**
      * Sets the value at the specified index $offset to $value
      *
-     * @param string|integer $offest The index being set.
+     * @param string|integer $offset The index being set.
      * @param mixed          $value  The new value for the index.
      *
      * @return void
@@ -31,7 +31,7 @@ trait ArrayAccessTrait
     /**
      * Returns whether the requested index exists.
      *
-     * @param mixed $offest The index being checked.
+     * @param mixed $offset The index being checked.
      *
      * @return boolean
      */
@@ -47,7 +47,7 @@ trait ArrayAccessTrait
     /**
      * Unsets the value at the specified index
      *
-     * @param mixed $offest The index being unset.
+     * @param mixed $offset The index being unset.
      *
      * @return void
      */
@@ -75,5 +75,4 @@ trait ArrayAccessTrait
 
         return array_key_exists($offset, $this->container) ? $this->container[$offset] : null;
     }
-
 }

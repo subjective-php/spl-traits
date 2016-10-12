@@ -10,7 +10,9 @@ trait SerializationDisabledTrait
     /**
      * Throws an exception if this object is serialized.
      *
-     * @throws \BadMethodCallException
+     * @return void
+     *
+     * @throws \BadMethodCallException Always thrown.
      */
     public function __sleep()
     {

@@ -12,7 +12,7 @@ trait CloningDisabledTrait
      *
      * @return void
      *
-     * @throws \BadMethodCallException
+     * @throws \BadMethodCallException Always thrown.
      */
     public function __clone()
     {
