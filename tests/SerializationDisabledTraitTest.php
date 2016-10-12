@@ -7,10 +7,10 @@ namespace ChadicusTest\Spl\Traits;
 class SerializationDisabledTraitTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * Verify basic behavior of _clone().
+     * Verify basic behavior of __sleep().
      *
      * @test
-     * @covers ::__clone
+     * @covers ::__sleep
      * @expectedException \BadMethodCallException
      *
      * @return void
