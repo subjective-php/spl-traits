@@ -42,7 +42,7 @@ class ArrayAccessTraitTest extends \PHPUnit\Framework\TestCase
     public function offsetSetInvalidKey()
     {
         $object = new SimpleObject();
-        $object->offsetSet(new \StdClass(), 'weeee!');
+        /** @scrutinizer ignore-call */ $object->offsetSet(new \StdClass(), 'weeee!');
     }
 
     /**
@@ -116,6 +116,6 @@ class ArrayAccessTraitTest extends \PHPUnit\Framework\TestCase
     public function offsetGetInvalidKey()
     {
         $object = new SimpleObject();
-        $object->offsetGet(new \StdClass());
+        /** @scrutinizer ignore-call */ $object->offsetGet(new \StdClass());
     }
 }
