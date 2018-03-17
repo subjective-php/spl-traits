@@ -4,7 +4,7 @@ namespace ChadicusTest\Spl\Traits;
 /**
  * @coversDefaultClass Chadicus\Spl\Traits\ArrayAccessTrait
  */
-class ArrayAccessTraitTest extends \PHPUnit_Framework_TestCase
+class ArrayAccessTraitTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Verify basic behavior of offsetSet().

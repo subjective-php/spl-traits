@@ -4,7 +4,7 @@ namespace ChadicusTest\Spl\Traits;
 /**
  * @coversDefaultClass Chadicus\Spl\Traits\CloningDisabledTrait
  */
-class CloningDisabledTraitTest extends \PHPUnit_Framework_TestCase
+class CloningDisabledTraitTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Verify basic behavior of _clone().
