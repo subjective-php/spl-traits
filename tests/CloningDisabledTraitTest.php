@@ -18,6 +18,6 @@ class CloningDisabledTraitTest extends \PHPUnit\Framework\TestCase
     public function magicClone()
     {
         $object = $this->getObjectForTrait('\\Chadicus\\Spl\\Traits\\CloningDisabledTrait');
-        $clone = clone $object;
+        clone $object;
     }
 }

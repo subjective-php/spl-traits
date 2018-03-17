@@ -8,6 +8,8 @@ use Chadicus\Spl\Traits\MagicAccessorTrait;
 
 /**
  * Basic object to use in tests.
+ *
+ * @property mixed $foo
  */
 class SimpleObject implements \ArrayAccess, \Iterator
 {
