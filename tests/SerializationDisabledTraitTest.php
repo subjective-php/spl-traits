@@ -4,7 +4,7 @@ namespace ChadicusTest\Spl\Traits;
 /**
  * @coversDefaultClass Chadicus\Spl\Traits\SerializationDisabledTrait
  */
-class SerializationDisabledTraitTest extends \PHPUnit_Framework_TestCase
+class SerializationDisabledTraitTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Verify basic behavior of __sleep().

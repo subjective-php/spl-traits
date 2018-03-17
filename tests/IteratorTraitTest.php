@@ -4,7 +4,7 @@ namespace ChadicusTest\Spl\Traits;
 /**
  * @coversDefaultClass Chadicus\Spl\Traits\IteratorTrait
  */
-class IteratorTraitTest extends \PHPUnit_Framework_TestCase
+class IteratorTraitTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Verify basic behavior of valid().

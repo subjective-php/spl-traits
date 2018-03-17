@@ -4,7 +4,7 @@ namespace ChadicusTest\Spl\Traits;
 /**
  * @coversDefaultClass Chadicus\Spl\Traits\MagicAccessorTrait
  */
-class MagicAccessorTraitTest extends \PHPUnit_Framework_TestCase
+class MagicAccessorTraitTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Verify basic behavior of __get().
