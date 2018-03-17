@@ -11,6 +11,9 @@
         }
     ],
     "license": "MIT",
+    "config": {
+        "sort-packages": true
+    },
     "require": {
         "php": "~5.4 || ~7.0"
     },
