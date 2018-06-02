@@ -2,14 +2,6 @@
     "name": "chadicus/spl-traits",
     "description": "A collection standard traits",
     "keywords": ["spl", "traits"],
-    "authors": [
-        {
-            "name": "Chad Gray",
-            "email": "chadwickgray@gmail.com",
-            "homepage": "http://chadicus.org",
-            "role": "Developer"
-        }
-    ],
     "license": "MIT",
     "config": {
         "sort-packages": true
