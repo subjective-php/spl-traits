@@ -1,8 +1,8 @@
 <?php
-namespace ChadicusTest\Spl\Traits;
+namespace SubjectivePHPTest\Spl\Traits;
 
 /**
- * @coversDefaultClass Chadicus\Spl\Traits\SerializationDisabledTrait
+ * @coversDefaultClass SubjectivePHP\Spl\Traits\SerializationDisabledTrait
  */
 class SerializationDisabledTraitTest extends \PHPUnit\Framework\TestCase
 {
@@ -17,7 +17,7 @@ class SerializationDisabledTraitTest extends \PHPUnit\Framework\TestCase
      */
     public function magicClone()
     {
-        $object = $this->getObjectForTrait('\\Chadicus\\Spl\\Traits\\SerializationDisabledTrait');
+        $object = $this->getObjectForTrait('\\SubjectivePHP\\Spl\\Traits\\SerializationDisabledTrait');
         serialize($object);
     }
 }

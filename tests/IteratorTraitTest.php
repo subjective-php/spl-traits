@@ -1,8 +1,8 @@
 <?php
-namespace ChadicusTest\Spl\Traits;
+namespace SubjectivePHPTest\Spl\Traits;
 
 /**
- * @coversDefaultClass Chadicus\Spl\Traits\IteratorTrait
+ * @coversDefaultClass SubjectivePHP\Spl\Traits\IteratorTrait
  */
 class IteratorTraitTest extends \PHPUnit\Framework\TestCase
 {

@@ -1,5 +1,5 @@
 {
-    "name": "chadicus/spl-traits",
+    "name": "subjective-php/spl-traits",
     "description": "A collection standard traits",
     "keywords": ["spl", "traits"],
     "license": "MIT",
@@ -15,9 +15,9 @@
         "squizlabs/php_codesniffer": "^3.2"
     },
     "autoload": {
-        "psr-4": { "Chadicus\\Spl\\Traits\\": "src" }
+        "psr-4": { "SubjectivePHP\\Spl\\Traits\\": "src" }
     },
     "autoload-dev": {
-        "psr-4": { "ChadicusTest\\Spl\\Traits\\": "tests" }
+        "psr-4": { "SubjectivePHPTest\\Spl\\Traits\\": "tests" }
     }
 }

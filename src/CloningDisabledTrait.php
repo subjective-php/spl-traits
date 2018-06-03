@@ -1,6 +1,6 @@
 <?php
 
-namespace Chadicus\Spl\Traits;
+namespace SubjectivePHP\Spl\Traits;
 
 /**
  * Simple trait to disallow cloning on any object.
