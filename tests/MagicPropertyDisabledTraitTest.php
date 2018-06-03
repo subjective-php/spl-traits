@@ -16,8 +16,7 @@ class MagicPropertyDisabledTraitTest extends \PHPUnit\Framework\TestCase
      */
     public function magicGet()
     {
-        $object = $this->getObjectForTrait(MagicPropertyDisabledTrait::class);
-        $foo = $object->foo;
+        $value = $this->getObject()->foo;
     }
 
     /**
@@ -27,7 +26,14 @@ class MagicPropertyDisabledTraitTest extends \PHPUnit\Framework\TestCase
      */
     public function magicSet()
     {
-        $object = $this->getObjectForTrait(MagicPropertyDisabledTrait::class);
-        $object->foo = 'bar';
+        $this->getObject()->foo = 'bar';
+    }
+
+    public function getObject()
+    {
+        return new class
+        {
+            use MagicPropertyDisabledTrait;
+        };
     }
 }
