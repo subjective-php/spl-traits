@@ -1,6 +1,6 @@
 <?php
 
-namespace Chadicus\Spl\Traits;
+namespace SubjectivePHP\Spl\Traits;
 
 trait ArrayAccessTrait
 {

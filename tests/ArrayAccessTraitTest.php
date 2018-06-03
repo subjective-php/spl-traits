@@ -1,8 +1,8 @@
 <?php
-namespace ChadicusTest\Spl\Traits;
+namespace SubjectivePHPTest\Spl\Traits;
 
 /**
- * @coversDefaultClass Chadicus\Spl\Traits\ArrayAccessTrait
+ * @coversDefaultClass SubjectivePHP\Spl\Traits\ArrayAccessTrait
  */
 class ArrayAccessTraitTest extends \PHPUnit\Framework\TestCase
 {

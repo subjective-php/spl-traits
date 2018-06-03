@@ -1,10 +1,10 @@
 <?php
 
-namespace ChadicusTest\Spl\Traits;
+namespace SubjectivePHPTest\Spl\Traits;
 
-use Chadicus\Spl\Traits\ArrayAccessTrait;
-use Chadicus\Spl\Traits\IteratorTrait;
-use Chadicus\Spl\Traits\MagicAccessorTrait;
+use SubjectivePHP\Spl\Traits\ArrayAccessTrait;
+use SubjectivePHP\Spl\Traits\IteratorTrait;
+use SubjectivePHP\Spl\Traits\MagicAccessorTrait;
 
 /**
  * Basic object to use in tests.

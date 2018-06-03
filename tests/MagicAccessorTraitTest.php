@@ -1,8 +1,8 @@
 <?php
-namespace ChadicusTest\Spl\Traits;
+namespace SubjectivePHPTest\Spl\Traits;
 
 /**
- * @coversDefaultClass Chadicus\Spl\Traits\MagicAccessorTrait
+ * @coversDefaultClass SubjectivePHP\Spl\Traits\MagicAccessorTrait
  */
 class MagicAccessorTraitTest extends \PHPUnit\Framework\TestCase
 {

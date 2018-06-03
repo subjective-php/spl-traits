@@ -1,8 +1,8 @@
 <?php
-namespace ChadicusTest\Spl\Traits;
+namespace SubjectivePHPTest\Spl\Traits;
 
 /**
- * @coversDefaultClass Chadicus\Spl\Traits\CloningDisabledTrait
+ * @coversDefaultClass SubjectivePHP\Spl\Traits\CloningDisabledTrait
  */
 class CloningDisabledTraitTest extends \PHPUnit\Framework\TestCase
 {
@@ -17,7 +17,7 @@ class CloningDisabledTraitTest extends \PHPUnit\Framework\TestCase
      */
     public function magicClone()
     {
-        $object = $this->getObjectForTrait('\\Chadicus\\Spl\\Traits\\CloningDisabledTrait');
+        $object = $this->getObjectForTrait('\\SubjectivePHP\\Spl\\Traits\\CloningDisabledTrait');
         clone $object;
     }
 }
